@@ -4,6 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "tsc": "tsc",
+    "tsc-config": "tsc --init",
     "start": "tsc && webpack-dev-server --config webpack.dev.js",
     "build": "tsc && webpack --config webpack.prod.js && webpack-dev-server --config webpack.server.js"
   },
